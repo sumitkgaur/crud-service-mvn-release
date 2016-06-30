@@ -12,7 +12,6 @@
 		<spring.version>4.2.1.RELEASE</spring.version>
 	</properties>
 	
-	
 	<scm>
 	    <developerConnection>
 	        scm:git:https://github.com/Akamoha/crud-service.git
