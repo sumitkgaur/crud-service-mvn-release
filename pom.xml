@@ -127,6 +127,7 @@
 				  </configuration>
 			</plugin>		
 		</plugins>
+	</build>
 	<distributionManagement>
         <repository>
             <id>fakerepo</id>
@@ -140,9 +141,6 @@
             <url>file:///C:/repo/</url>
         </snapshotRepository>
     </distributionManagement>
-	
-	</build>
-
 </project>
 
 
