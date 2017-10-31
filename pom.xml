@@ -137,7 +137,7 @@
         </repository>
         <snapshotRepository>
             <id>fakesnapshotrepo</id>
-            <name>Local file system</name>
+            <name>LFS</name>
             <url>file:///C:/repo/</url>
         </snapshotRepository>
     </distributionManagement>
