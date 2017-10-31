@@ -19,15 +19,10 @@
 	</scm>
 	<distributionManagement>
 		<repository>
-			<id>fakerepo</id>
-			<name>Lem</name>
-			<url>scm:git:https://github.com/sumitkgaur/crud-service-mvn-release.git</url>
+			<id>corp1</id>
+			<name>Copr repo</name>
+			<url>file:///C:\Users\sumgaur\.m2</url>
 		</repository>
-		<snapshotRepository>
-			<id>snapshotrepo</id>
-			<name>LFS</name>
-			<url>scm:git:https://github.com/sumitkgaur/crud-service-mvn-release.git</url>
-		</snapshotRepository>
 	</distributionManagement>
 
 	<dependencies>
