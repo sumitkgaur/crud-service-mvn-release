@@ -21,12 +21,12 @@
 		<repository>
 			<id>fakerepo</id>
 			<name>Lem</name>
-			<url>file:///C:/</url>
+			<url>scm:git:https://github.com/sumitkgaur/crud-service-mvn-release.git</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshotrepo</id>
 			<name>LFS</name>
-			<url>file:///C:/repo/</url>
+			<url>scm:git:https://github.com/sumitkgaur/crud-service-mvn-release.git</url>
 		</snapshotRepository>
 	</distributionManagement>
 
@@ -130,14 +130,7 @@
 			            <version>1.9.1</version>
 			        </dependency>
 			 </dependencies>
-			</plugin>
-			 <plugin>
-				  <groupId>org.apache.maven.plugins</groupId>
-				  <artifactId>maven-deploy-plugin</artifactId>
-				  <configuration>
-					<skip>true</skip>
-				  </configuration>
-			</plugin>		
+			</plugin>	
 		</plugins>
 	</build>
 
