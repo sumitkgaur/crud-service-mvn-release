@@ -13,7 +13,7 @@
 	
 	<scm>
 	    <developerConnection>
-	        scm:git:https://github.com/Akamoha/crud-service.git
+	        scm:git:https://github.com/sumitkgaur/crud-service-mvn-release.git
 	    </developerConnection>
 	    <tag>HEAD</tag>
 	</scm>
