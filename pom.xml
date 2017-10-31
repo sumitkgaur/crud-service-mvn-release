@@ -17,6 +17,18 @@
 	    </developerConnection>
 	    <tag>HEAD</tag>
 	</scm>
+	<distributionManagement>
+		<repository>
+			<id>fakerepo</id>
+			<name>Lem</name>
+			<url>file:///C:/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshotrepo</id>
+			<name>LFS</name>
+			<url>file:///C:/repo/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<dependencies>
 		<!-- Spring dependencies -->
@@ -128,18 +140,7 @@
 			</plugin>		
 		</plugins>
 	</build>
-	<distributionManagement>
-		<repository>
-			<id>fakerepo</id>
-			<name>Local file system</name>
-			<url>file:///C:/</url>
-		</repository>
-		<snapshotRepository>
-			<id>fakesnapshotrepo</id>
-			<name>LFS</name>
-			<url>file:///C:/repo/</url>
-		</snapshotRepository>
-	</distributionManagement>
+
 </project>
 
 
