@@ -127,10 +127,10 @@
 				  </configuration>
 			</plugin>		
 		</plugins>
-	</build>
 	<distributionManagement>
         <repository>
             <id>fakerepo</id>
+            <name>Local file system</name>
             <name>Local file system</name>
             <url>file:///C:/</url>
         </repository>
@@ -140,6 +140,9 @@
             <url>file:///C:/repo/</url>
         </snapshotRepository>
     </distributionManagement>
+	
+	</build>
+
 </project>
 
 
