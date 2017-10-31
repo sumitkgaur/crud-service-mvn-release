@@ -109,7 +109,6 @@
 			    <version>2.5.3</version>
 			    <configuration>
 				<tagNameFormat>v@{project.version}</tagNameFormat>    
-				<goals>deploy</goals>
 				<autoversionsubmodules>true</autoversionsubmodules>
 			    </configuration>
 			<dependencies>
