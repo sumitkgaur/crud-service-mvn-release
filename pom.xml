@@ -132,7 +132,6 @@
         <repository>
             <id>fakerepo</id>
             <name>Local file system</name>
-            <name>Local file system</name>
             <url>file:///C:/</url>
         </repository>
         <snapshotRepository>
