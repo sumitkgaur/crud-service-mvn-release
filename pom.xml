@@ -3,7 +3,7 @@
 	<groupId>com.akshaydamle</groupId>
 	<artifactId>CRUD</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>CRUD Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
