@@ -3,7 +3,7 @@
 	<groupId>com.akshaydamle</groupId>
 	<artifactId>CRUD</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>CRUD Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
@@ -15,7 +15,7 @@
 	    <developerConnection>
 	        scm:git:https://github.com/sumitkgaur/crud-service-mvn-release.git
 	    </developerConnection>
-	    <tag>HEAD</tag>
+	    <tag>v0.0.2</tag>
 	</scm>
 
 	<dependencies>
