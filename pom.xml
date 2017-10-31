@@ -11,7 +11,18 @@
 	<properties>
 		<spring.version>4.2.1.RELEASE</spring.version>
 	</properties>
-
+	<distributionManagement>
+		<repository>
+			<id>fakerepo</id>
+			<name>Lem</name>
+			<url>scm:git:https://github.com/sumitkgaur/crud-service-mvn-release.git</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshotrepo</id>
+			<name>LFS</name>
+			<url>scm:git:https://github.com/sumitkgaur/crud-service-mvn-release.git</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<dependencies>
 		<!-- Spring dependencies -->
 		<dependency>
